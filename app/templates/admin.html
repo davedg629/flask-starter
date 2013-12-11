@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2>{{ title }}</h2>
+
+{% include 'flash.html' %}
+
+<a href="{{ url_for('logout') }}">Logout</a>
+
+{% endblock %}
