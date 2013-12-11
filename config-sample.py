@@ -3,7 +3,7 @@ import os
 basedir = os.path.abspath(os.path.dirname(__file__))
 
 CSRF_ENABLED = True
-SECRET_KEY = 'secret'
+SECRET_KEY = 'secret_key'
 DEBUG = True
 
 ADMIN_USERNAME = 'admin'
